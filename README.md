@@ -39,6 +39,16 @@ IPython
 
 You will also need to have an OpenAI API key and set it as an environment variable using the os.environ method.
 
+# System Architecture
+The system's architecture comprises several key components:
+
+Language Model: The core of the system is based on a fine-tuned ChatOpenAI language model (e.g., GPT-3.5) that is capable of processing conversational inputs.
+LLMPredictor: This component wraps the language model and provides prediction capabilities, handling the communication with the model's API.
+ServiceContext: Responsible for managing the language model's prediction service and chunking long documents for efficient processing.
+StorageContext: Manages the storage of the generated knowledge graph using a SimpleGraphStore.
+GPTKnowledgeGraphIndex: The knowledge graph index is constructed using this class, and it supports embeddings to measure similarity between queries and graph entries.
+
+
 # Usage
 To use this project, first load your data into a directory and specify the path to that directory when creating an instance of the SimpleDirectoryReader class. Then, create instances of the LLMPredictor, ServiceContext, and StorageContext classes as shown in the code.
 
