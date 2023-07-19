@@ -7,7 +7,7 @@ Knowledge graphs are used to model and organize vast amounts of heterogeneous da
 Large Language Models (LLMs) are a type of artificial intelligence that can generate human-like text and perform a wide range of natural language processing tasks. These models are trained on vast amounts of text data and can generate coherent and contextually relevant responses to a wide range of prompts. LLMs have the ability to understand and generate text in multiple languages, making them a powerful tool for natural language processing tasks such as question answering, text generation, and language translation. LLMs are used in a variety of applications, including chatbots, virtual assistants, and content-generation tools.
 
 ## Knowledge Graph Generation and Question Answering using NLP Techniques
-This project demonstrates how to generate a knowledge graph from a text using natural language processing (NLP) techniques and use the resulting knowledge graph to answer questions. The project uses several NLP libraries and tools, including spaCy, Stanford CoreNLP, and BERT.
+This project demonstrates how to generate a knowledge graph from a text using natural language processing (NLP) techniques and use the resulting knowledge graph to answer questions. The project uses several NLP libraries and tools, including spaCy, Stanford CoreNLP,OpenIE and BERT.
 
 # Requirements
 To run this project, you will need to have the following libraries and tools installed:
@@ -35,12 +35,15 @@ You will also need to have access to a running instance of the Stanford CoreNLP 
 
 # Advantages
 **Integration of multiple NLP techniques:** The code integrates multiple NLP techniques, including named entity recognition, coreference resolution, and relation extraction, to generate a comprehensive knowledge graph from the input text.
+
 **Use of pre-trained models:** The code makes use of pre-trained models, such as spaCy’s NER model and BERT for question answering, which can save time and effort compared to training models from scratch.
+
 **Modularity:** The code is modular, with separate functions for each step of the process, making it easy to understand and modify.
 
 # Disadvantages
 **Data quality:** The quality of the generated knowledge graph and the accuracy of the answers to the questions depend on the quality of the input data. If the input data is incomplete, inaccurate, or inconsistent, this can affect the performance of the code and the accuracy of the answers.
-**generate noisy or irrelevant relation:** One potential disadvantage of using OpenIE for relation extraction is that it may generate noisy or irrelevant relations. OpenIE is designed to extract open-domain relation triples from text, representing a subject, a relation, and the object of the relation. However, not all relations extracted by OpenIE may be relevant or useful for a particular application.
+
+**Generate noisy or irrelevant relation:** One potential disadvantage of using OpenIE for relation extraction is that it may generate noisy or irrelevant relations. OpenIE is designed to extract open-domain relation triples from text, representing a subject, a relation, and the object of the relation. However, not all relations extracted by OpenIE may be relevant or useful for a particular application.
 
 
 # Llama_Index
