@@ -1,4 +1,4 @@
-# Knkowledge Graphs
+# Knowledge Graphs
 A knowledge graph is a structured representation of knowledge in the form of a directed graph. In a knowledge graph, entities are represented as nodes, and relationships between entities are represented as directed edges connecting the nodes. This graph-like structure allows for efficient storage, retrieval, and reasoning about complex relationships and information.
 
 Knowledge graphs are used to model and organize vast amounts of heterogeneous data from various sources, enabling powerful data integration and knowledge discovery. They are employed in a wide range of applications, including the semantic web, natural language processing, recommendation systems, question-answering systems, and more.
@@ -15,6 +15,7 @@ A knowledge graph is a powerful tool that can provide many benefits. Some of the
 **Informed decision making:** Using a knowledge graph means no more looking through piles of paper to find a particular document as knowledge graphs provide relevant facts and contextualized answers to your specific questions, rather than a broad search result with lots of irrelevant information.
 
 For more information refer-
+
 https://www.wisecube.ai/blog/8-benefits-of-building-a-knowledge-graph/
 
 https://research.aimultiple.com/knowledge-graph/
@@ -48,6 +49,10 @@ You will also need to have access to a running instance of the Stanford CoreNLP 
 **Coreference Resolution:** Coreference resolution is the process of identifying and resolving references to the same entity within a text. This involves identifying pronouns and other referring expressions that refer to the same entity and linking them together. Coreference resolution is important for understanding the meaning of a text, as it allows us to determine which entities are being referred to by different expressions. In the code you provided, coreference resolution is performed using the coreference() function, which uses the AllenNLP library to resolve coreferences in the input text.
 
 **Relation Extraction:** Relation extraction is the process of identifying and extracting relations between named entities in text. This involves identifying pairs of named entities that are related to each other and extracting information about the nature of their relationship. Relation extraction can be used to generate structured representations of information from unstructured text data. In the code you provided, relation extraction is performed using the extract_relations() function, which uses spaCy and the Stanford CoreNLP server to extract relations from the input text.
+
+# Code
+
+https://github.com/Suvam-Patra/KG-QA/blob/main/KGQA_NLP.ipynb
 
 # Advantages
 **Integration of multiple NLP techniques:** The code integrates multiple NLP techniques, including named entity recognition, coreference resolution, and relation extraction, to generate a comprehensive knowledge graph from the input text.
@@ -115,6 +120,10 @@ GPTKnowledgeGraphIndex: The knowledge graph index is constructed using this clas
 To use this project, first load your data into a directory and specify the path to that directory when creating an instance of the SimpleDirectoryReader class. Then, create instances of the LLMPredictor, ServiceContext, and StorageContext classes as shown in the code.
 Next, create an instance of the GPTKnowledgeGraphIndex class using the .from_documents() method and specify the appropriate parameters. You can then visualize the knowledge graph using the NetworkX and Matplotlib libraries as shown in the code.
 Finally, create an instance of a query engine using the .as_query_engine() method of the knowledge graph index. You can use this query engine to generate responses to queries about the content of your documents using large language models.
+
+# Code
+
+https://github.com/Suvam-Patra/KG-QA/blob/main/KnowledgeGraphQA.ipynb
 
 # Advantages
 **Efficiency**: The code uses OpenAI’s GPT-3.5 model and the Llama Index library to efficiently generate a knowledge graph from a set of documents. This approach is faster and more scalable than traditional NLP techniques, which can require significant computational resources and time to process large amounts of data.
