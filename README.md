@@ -3,7 +3,7 @@ A knowledge graph is a structured representation of knowledge in the form of a d
 
 Knowledge graphs are used to model and organize vast amounts of heterogeneous data from various sources, enabling powerful data integration and knowledge discovery. They are employed in a wide range of applications, including the semantic web, natural language processing, recommendation systems, question-answering systems, and more.
 # LLMs
-LLMs are a phenomenal piece of technology for knowledge generation and are pre-trained on large amounts of publicly available data.
+Large Language Models (LLMs) are a type of artificial intelligence that can generate human-like text and perform a wide range of natural language processing tasks. These models are trained on vast amounts of text data and can generate coherent and contextually relevant responses to a wide range of prompts. LLMs have the ability to understand and generate text in multiple languages, making them a powerful tool for natural language processing tasks such as question answering, text generation, and language translation. LLMs are used in a variety of applications, including chatbots, virtual assistants, and content-generation tools.
 
 # Llama_Index
 Llama Index is a data framework for connecting custom data sources to large language models. It provides a simple and flexible way to ingest data from various sources and formats, structure the data into indices and graphs, and use the data with large language models to generate knowledge-augmented responses to queries. Llama Index provides a query interface that accepts any input prompt over your data and returns a response that is augmented with knowledge from your data sources. It is built on top of LangChain, which provides the fundamental building blocks for many different kinds of LLM applications.
@@ -42,5 +42,3 @@ To use this project, first load your data into a directory and specify the path 
 Next, create an instance of the GPTKnowledgeGraphIndex class using the .from_documents() method and specify the appropriate parameters. You can then visualize the knowledge graph using the NetworkX and Matplotlib libraries as shown in the code.
 
 Finally, create an instance of a query engine using the .as_query_engine() method of the knowledge graph index. You can use this query engine to generate responses to queries about the content of your documents using large language models.
-
-#
