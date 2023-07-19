@@ -22,19 +22,22 @@ This project demonstrates how to generate a knowledge graph from a set of docume
 
 # Requirements
 To run this project, you will need to have the following libraries installed:
+
 openai
+
 logging
+
 sys
+
 llama_index
+
 networkx
+
 matplotlib
+
 IPython
+
 You will also need to have an OpenAI API key and set it as an environment variable using the os.environ method.
-
-# Installation
-To install this project, clone the repository to your local machine and navigate to the project directory. Then, install the required libraries using the following command:
-
-pip install -r requirements.txt
 
 # Usage
 To use this project, first load your data into a directory and specify the path to that directory when creating an instance of the SimpleDirectoryReader class. Then, create instances of the LLMPredictor, ServiceContext, and StorageContext classes as shown in the code.
