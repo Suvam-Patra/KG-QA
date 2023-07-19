@@ -67,7 +67,9 @@ https://github.com/Suvam-Patra/KG-QA/blob/main/KGQA_NLP.ipynb
 **Complexity of questions:** Another potential disadvantage of the code for question answering is that it may not be able to handle complex or multi-faceted questions. The code uses a pre-trained BERT model to generate answers to questions based on the extracted relations, but this approach may not be able to handle questions that require reasoning or inference across multiple relations or that involve complex logical or temporal relationships. Additionally, the code may not be able to handle questions that require information that is not present in the extracted relations or that require additional context or background knowledge.
 
 # References
+
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://dl.acm.org/doi/pdf/10.1145/3594778.3594877
+
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1909.07606.pdf
 
 # Llama_Index
