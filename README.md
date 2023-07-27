@@ -23,5 +23,18 @@ https://research.aimultiple.com/knowledge-graph/
 # LLMs
 Large Language Models (LLMs) are a type of artificial intelligence that can generate human-like text and perform a wide range of natural language processing tasks. These models are trained on vast amounts of text data and can generate coherent and contextually relevant responses to a wide range of prompts. LLMs have the ability to understand and generate text in multiple languages, making them a powerful tool for natural language processing tasks such as question answering, text generation, and language translation. LLMs are used in a variety of applications, including chatbots, virtual assistants, and content-generation tools.
 
+# Integration of LLMs with Knowledge Graphs
 
+**Improved query understanding:** LLMs can better understand the user’s query and map it to a structured representation that can be used to query the knowledge graph.
+
+**Enhanced entity linking:** LLMs can accurately link entities mentioned in the query to their corresponding nodes in the knowledge graph.
+
+**Effective relation extraction:** LLMs can extract relations between the entities mentioned in the query and use this information to retrieve relevant information from the knowledge graph.
+
+**Natural language generation:** LLMs can generate natural language responses that are coherent, fluent, and easy to understand.
+
+**Increased accuracy:** The use of LLMs can increase the accuracy of the KGQA system by enabling it to better understand user queries and generate more accurate responses.
+
+
+Overall, the integration of LLMs in KGQA systems can significantly improve their performance by enabling them to better understand user queries, accurately link entities, effectively extract relations, and generate natural language responses
 
